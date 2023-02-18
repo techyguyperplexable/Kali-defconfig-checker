@@ -7,7 +7,7 @@ defconfig checker and enabler for kali nethunter
 clone repo and place defconfig in 
 the repo folder and run 
 
-./check-kernel-config name-of_defconfig
+./check-kernel-config -w name-of_defconfig
 
 profit
 
