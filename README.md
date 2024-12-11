@@ -20,6 +20,7 @@ Kali Nethunter will NOT function using a monolithic kernel and firmware will not
 Below are the drivers that you will need to change from =y to =m 
 
 
+
 SDR 
 
 CONFIG_USB_AIRSPY=m
@@ -29,9 +30,11 @@ CONFIG_USB_HACKRF=m
 CONFIG_USB_MSI2500=m
 
 
+
 bluetooth spoofing, spamming and attacks
 
 CONFIG_BT_HCIVHCI=m
+
 
 
 Wireless network adapters 
@@ -66,4 +69,9 @@ CONFIG_RTL8192CU=m
 
 CONFIG_RTL8XXXU_UNTESTED=m
 
+
+
 Once these steps are taken replace your old defconfig with the new one build and profit
+
+
+
