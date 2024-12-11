@@ -21,7 +21,9 @@ Below are the drivers that you will need to change from =y to =m
 SDR 
 
 CONFIG_USB_AIRSPY
+
 CONFIG_USB_HACKRF
+
 CONFIG_USB_MSI2500
 
 bluetooth spoofing, spamming and attacks
